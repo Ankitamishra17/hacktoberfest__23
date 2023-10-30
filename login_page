@@ -1,0 +1,81 @@
+<html>
+<head>
+     <title> login page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .main{
+               height: 400px;
+               width: 100% ;
+               background-image: url(log.jpeg);
+               background-size: 100% 100%;
+        }
+            h1{
+                color: maroon;
+                font-size: 45px;
+                font-weight: bold;
+                text-shadow: 2px 2px white;
+                margin-left: 50%;
+            }
+            #box{
+                height: 30px;
+                width: 140%;
+                margin-top: 4%;
+                border-radius: 5px;
+                background: transparent;
+                color: maroon;
+                border:2px dotted black;
+            }
+            table{
+                margin-top: 5%;
+                margin-left: 45%;
+            }
+            #text{
+                color: tomato;
+                font-size: 25px;
+            }
+            #btn{
+                height: 35px;
+                width: 120%;
+                background: blue;
+                border-radius:  20px;
+                margin-top: 15px;
+            }
+        </style>
+</head>
+<body class="main">
+   <center>
+       <h1>Login Here...</h1>
+       <table>
+           <form action="Summer17.html" method="post">
+               <tr>
+                   <td>
+                       <lable id="text">User Id:</lable>
+                       <input type="text" id="box"/>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <lable id="text">Password:</lable>
+                       <input type="text" id="box"/>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <input type="submit"  value="Login" id="btn"/>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <a href= "Summer17.html" style="font-size: 25px; color:  hotpink; font-family: serif">Forgotten Password ?</b>
+                   </td>
+               </tr>
+               <tr>
+                   <td>
+                       <b style="font-size: 20px; color:  red; font-family: sans serif ;margin-left:30% ">Create new account</b>
+                   </td>
+               </tr>
+           </form>
+       </table>
+   </center>
+</body>
+</html>
